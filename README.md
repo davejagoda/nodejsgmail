@@ -6,7 +6,7 @@ nodejs and gmail
 # environment variables
 
 ```
-EMAIL=<email address>
+USER=<email address>
 PASSWORD=<password>
 ```
 
