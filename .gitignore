@@ -1,0 +1,8 @@
+# Emacs
+*~
+
+# nodejs
+node_modules
+
+# environment
+.env
