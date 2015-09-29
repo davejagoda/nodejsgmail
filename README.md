@@ -18,3 +18,6 @@ automatically.
 ```
 foreman start
 ```
+# resources
+
+https://www.npmjs.com/package/imap
