@@ -1,1 +1,1 @@
-web: node mail.js
+mail: node mail.js
