@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/davejagoda/nodejsgmail",
   "dependencies": {
-    "imap": "^0.8.14"
+    "imap": "^0.8.14",
+    "xoauth2": "^1.1.0"
   }
 }
