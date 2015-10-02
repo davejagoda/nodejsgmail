@@ -5,12 +5,29 @@ nodejs and gmail
 
 # environment variables
 
-`APP_NAME=nodejsgmail-2015` not actually used, but identifies the application
-`EMAIL=<email_address@gmail.com>` the gmail account that authenticates
-`CLIENT_ID=<id_abc.apps.googleusercontent.com>` application OAuth client id
-`CLIENT_SECRET=<secret>` application OAuth client secret
-`REFRESH_TOKEN=<#/secret>` you have to do the OAuth dance once to get this
-`RECIPIENT=<email_address@anywhere>` where you want to send mail
+Not actually used, but identifies the application:
+
+`APP_NAME=nodejsgmail-2015`
+
+Tthe gmail account that authenticates:
+
+`EMAIL=<email_address@gmail.com>`
+
+Application OAuth client id:
+
+`CLIENT_ID=<id_abc.apps.googleusercontent.com>`
+
+Application OAuth client secret:
+
+`CLIENT_SECRET=<secret>`
+
+You have to do the OAuth dance once to get this:
+
+`REFRESH_TOKEN=<#/secret>`
+
+Where you want to send mail:
+
+`RECIPIENT=<email_address@anywhere>`
 
 If you put these in a `.env` file then foreman will set them for you
 automatically.
