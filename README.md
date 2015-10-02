@@ -9,7 +9,7 @@ Not actually used, but identifies the application:
 
 `APP_NAME=nodejsgmail-2015`
 
-Tthe gmail account that authenticates:
+The gmail account that authenticates:
 
 `EMAIL=<email_address@gmail.com>`
 
