@@ -13,17 +13,25 @@ generator.on('token', function(token){
 });
 
 // login
-var transporter = nodemailer.createTransport(({
+var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
       xoauth2: generator
     }
-}));
+});
 
-// send mail
-transporter.sendMail({
+var mailOptions = {
   from: process.env.EMAIL,
   to: process.env.RECIPIENT,
-  subject: 'hello world!',
+  subject: Date.now(),
   text: 'Authenticated with OAuth2'
+};
+
+// send mail
+transporter.sendMail(mailOptions, function(error, info){
+  if(error) {
+    console.log(error);
+  }else{
+    console.log('Message sent:' + info.response);
+  }
 });
