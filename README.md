@@ -47,5 +47,7 @@ or to just send mail:
 # resources
 
 https://www.npmjs.com/package/imap
+
 https://github.com/andris9/xoauth2
+
 http://ddollar.github.io/foreman/
