@@ -50,4 +50,7 @@ https://www.npmjs.com/package/imap
 
 https://github.com/andris9/xoauth2
 
+https://github.com/andris9/nodemailer-smtp-transport#authentication
+
 http://ddollar.github.io/foreman/
+
