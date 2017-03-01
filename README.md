@@ -3,6 +3,10 @@ nodejsgmail
 
 nodejs and gmail
 
+# installation
+
+`npm install`
+
 # environment variables
 
 Not actually used, but identifies the application:
@@ -29,20 +33,22 @@ Where you want to send mail:
 
 `RECIPIENT=<email_address@anywhere>`
 
-If you put these in a `.env` file then foreman will set them for you
+If you put these in a `.env` file then node-foreman will set them for you
 automatically.
 
-# start instructions
+# usage
 
-`foreman start`
+To count the messages in your mailbox:
 
-or to just print out the OAuth token:
+`$(npm bin)/nf start imap`
 
-`foreman start -f Procfile.token`
+To just send mail:
 
-or to just send mail:
+`$(npm bin)/nf start smtp`
 
-`foreman start -f Procfile.smtp`
+To just print out an OAuth token:
+
+`$(npm bin)/nf start token`
 
 # resources
 
@@ -52,5 +58,4 @@ https://github.com/andris9/xoauth2
 
 https://github.com/andris9/nodemailer-smtp-transport#authentication
 
-http://ddollar.github.io/foreman/
-
+https://www.npmjs.com/package/foreman
